@@ -26,7 +26,7 @@ class RTP():
     Range-Time Parameter plots SuperDARN data using the following fields:
 
     Class pattern design: Builder
-    This class inherits matplotlib.pyplot to inherit plotting features as well
+    This class manipulates matplotlib.pyplot to set plotting features as well
     build off their builder design pattern.
 
     Notes
