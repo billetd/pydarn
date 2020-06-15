@@ -11,4 +11,4 @@ include pydarn/logging_config.yaml
 include pydarn/utils/hdw/*
 
 # Include radar FOV files
-include pydarn/radar_fov_files
+include pydarn/radar_fov_files/*
