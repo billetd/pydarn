@@ -57,7 +57,7 @@ setup(
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7'],
     python_requires='>=3.6',
-    data_files=[(gen_data_files('pydarn/radar_fov_files'),glob('radar_fov_files/**'))],
+    data_files=[gen_data_files('pydarn/radar_fov_files')],
     packages=find_packages(exclude=['docs', 'test']),
     author="SuperDARN",
     # used to import the logging config file into pydarn.
