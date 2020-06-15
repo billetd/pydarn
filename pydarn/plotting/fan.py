@@ -98,9 +98,9 @@ class fan():
         plot_beams = np.where(beam_scan == scan_index)
 
         # Files holding radar beam/gate locations
-        beam_lats = base_path+'/radar_fov_files/' + \
+        beam_lats = base_path+'/plotting/radar_fov_files/' + \
             dmap_data[0]['stid'].astype('str').zfill(3)+'_lats.txt'
-        beam_lons = base_path+'/radar_fov_files/' + \
+        beam_lons = base_path+'/plotting/radar_fov_files/' + \
             dmap_data[0]['stid'].astype('str').zfill(3)+'_lons.txt'
 
         # Initialise arrays holding coordinates and MLT's
